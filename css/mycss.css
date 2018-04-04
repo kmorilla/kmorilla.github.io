@@ -1,0 +1,76 @@
+
+
+.image-css {
+	padding-bottom: 15px;
+	height: 5em;
+}
+
+.html-image-css {
+	width: 12em;
+}
+
+.visual-studio-css {
+	width: 20em;
+}
+
+.c-css {
+	width: 5em;
+}
+
+.circle-image-css {
+    display: block;
+    width: 20em;
+    height: 20em;
+    background: #E6E7ED;
+	border-radius: 50%;
+    background-image: url("../images/modal-bg.jpg");
+    background-position:50% 50%;
+    background-repeat:no-repeat;    
+}
+
+.container-css {
+	width: 200px;
+}
+
+.fl-css {
+	float: left;
+}
+
+.icon-css {
+	height: 50px;
+	width: 50px;
+}
+
+figure {
+	display: inline-block;
+}
+
+figcaption {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#linked-css {
+   background-image: url("../images/linkedin-sign.png");
+   background-size: 50px;
+}
+
+#linked-css:hover {
+   background-image: url("../images/linkedin-sign-blue.png");
+   background-size: 50px;
+}
+
+#git-css {
+   background-image: url("../images/github-sign.png");
+   background-size: 50px;
+}
+
+#git-css:hover {
+   background-image: url("../images/github-sign-purple.png");
+   background-size: 50px;
+}
+
+.footer-css {
+	font-size: 11px;
+	
+}
