@@ -74,3 +74,7 @@ figcaption {
 	font-size: 11px;
 	
 }
+
+#larger-css {
+	font-size: 2em;
+}
