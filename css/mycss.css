@@ -1,31 +1,25 @@
 
 
+
 .image-css {
-	padding-bottom: 15px;
 	height: 5em;
 }
 
-.html-image-css {
+.hcj-css {
 	width: 12em;
-}
-
-.visual-studio-css {
-	width: 20em;
 }
 
 .c-css {
 	width: 5em;
 }
 
-.circle-image-css {
+.circle-image-css{
     display: block;
     width: 20em;
     height: 20em;
-    background: #E6E7ED;
 	border-radius: 50%;
-    background-image: url("../images/modal-bg.jpg");
     background-position:50% 50%;
-    background-repeat:no-repeat;    
+    background-repeat:no-repeat;   
 }
 
 .container-css {
@@ -78,3 +72,13 @@ figcaption {
 #larger-css {
 	font-size: 2em;
 }
+
+.background-css {
+	background-color: #003d5d;
+	border-color: #003d5d;
+}
+
+.color-css {
+	color: #fff;
+}
+
