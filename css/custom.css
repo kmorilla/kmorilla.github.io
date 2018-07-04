@@ -1,6 +1,6 @@
 /* your styles go here */
 #intro {
-	background-image: url('../img/KevynLandscape.jpg');
+	background-image: url('../img/KevynLandscape.1.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -67,23 +67,18 @@ button.close {
 
 
 /*---- Cell Phone Adjustments ----*/
-@media (max-width: 576px) { 
-	#intro {
-		height: 100vh;		
-	}
-
-	.intro-cont-custom {
-		height: 100%;
-		padding-top: 13em;
-	}
-
+@media (max-width: 568px) { 
 	h1 {
-		font-size: 3em;
+		font-size: 9vw;
 	}
 
 	.h2-custom {
 		font-size: 1.5em;
 	}	
+
+	.welcome-custom {
+		font-size: 
+	}
 
 	h3, h5 {
 		font-size: 1em;
@@ -109,7 +104,11 @@ button.close {
 }
 
 
-
+@media (max-width: 812px) {
+	#intro {
+		height: 100vh;		
+	}
+}
 
 
 
