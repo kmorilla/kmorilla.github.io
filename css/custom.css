@@ -30,6 +30,14 @@
 	left: 0;	
 }
 
+.title-custom {
+	color: #fff;
+}
+
+.icon {
+	text-shadow: none !important;
+}
+
 .border-custom {
 	border: 2px solid red;
 }
@@ -41,6 +49,11 @@
 
 .icon-custom {
 	font-size: 3em;
+}
+
+
+.hr-dark {
+	border-color: #ccc !important;
 }
 
 .bg-custom {
@@ -63,6 +76,15 @@
 
 button.close {
 	color: #fff;
+}
+
+.reference-image {
+	width: 17rem;
+	height: auto;
+}
+
+.reference-item {
+	width: 17rem;
 }
 
 

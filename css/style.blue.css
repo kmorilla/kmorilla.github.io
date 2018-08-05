@@ -82,14 +82,9 @@ section {
 }
 
 .bg-gradient {
-  background-image: url('../img/KevynLandscape2.1.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2b90d9), to(#56a7e1)) !important;
+  background: linear-gradient(to bottom, #2b90d9, #56a7e1) !important;
   color: #fff;
-  z-index: -10;
 }
 
 .bg-gradient * {
@@ -128,6 +123,7 @@ nav.navbar {
   padding-top: 0;
   padding-bottom: 0;
   background: #fff;
+  border-bottom: 1px solid #e6e6e6;
 }
 
 @media (max-width: 991.98px) {

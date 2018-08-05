@@ -40,7 +40,8 @@
             <ul class="navbar-nav ml-auto">
               <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Intro</a></li>
               <li class="nav-item"><a href="#about" class="nav-link link-scroll">About</a></li>
-              <li class="nav-item"><a href="#services" class="nav-link link-scroll">Languages</a></li>          
+              <li class="nav-item"><a href="#services" class="nav-link link-scroll">Languages</a></li>
+              <li class="nav-item"><a href="#references" class="nav-link link-scroll">My work</a></li>
               <li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>
             </ul>
           </div>
@@ -61,7 +62,7 @@
       </div>
     </section>
 
-    <!-- About-->
+    <!-- About -->
     <section id="about" class="about-section">
       <div class="container">
         <header class="text-center">
@@ -80,45 +81,87 @@
       </div>
     </section>
 
-    <!-- Language-->
-    <section id="services" class="bg-gradient services-section">
-      <div class="hero-overlay hero-overlay-black"></div>
+    <!-- Language -->
+    <section id="services" class="bg-gray services-section">
       <div class="container">
         <header class="text-center">
-          <h2 data-animate="fadeInDown" class="title h2-custom">Languages</h2>
+          <h2 data-animate="fadeInDown" class="title">Languages</h2>
         </header>
         <div class="row services text-center">
-          <div data-animate="fadeInUp" class="col mr-3">
-            <div class="hero-overlay hero-overlay-blue"></div>
+          <div data-animate="fadeInUp" class="col-lg-4">
             <div class="icon"><i class="fa fa-code"></i></div>
             <h3 class="heading mb-3 text-400">HTML, CSS & JavaScript</h3>
             <p>jQuery</p>
             <p>Bootstrap</p>
           </div>
-          <div data-animate="fadeInUp" class="col">
-            <div class="hero-overlay hero-overlay-blue"></div>
+          <div data-animate="fadeInUp" class="col-lg-4">
             <div class="icon"><i class="fa fa-file-text"></i></div>
             <h3 class="heading mb-3 text-400">C#</h3>
             <p>.NET Framework</p>
             <p>ASP.NET MVC</p>
             <p>Entity Framework</p>
           </div>
-          <div data-animate="fadeInUp" class="col ml-3">
-            <div class="hero-overlay hero-overlay-blue"></div>
+          <div data-animate="fadeInUp" class="col-lg-4">
             <div class="icon"><i class="fa fa-database"></i></div>
             <h3 class="heading mb-3 text-400">Database & SQL</h3>
             <p>T-SQL</p>
             <p>Microsoft SQL Server</p>
           </div>
-        </div>               
+        </div>
+        <hr data-animate="fadeInUp" class="hr-dark">
+        <div data-animate="fadeInUp" class="text-center">
+          <p class="lead">Would you like to know more or just discuss something?</p>
+          <p><a href="#contact" class="btn btn-outline-dark link-scroll">Contact me</a></p>
+        </div>
       </div>
-    </section>  
+    </section>    
+
+    <!-- References -->
+    <section id="references">
+      <div class="container">
+        <div class="col-sm-12">
+          <div class="mb-4 text-center">
+            <h2 data-animate="fadeInUp" class="title">My work</h2>            
+          </div>          
+          <div id="detail">
+            <div class="row">
+              <div class="col-lg-10 mx-auto"><span class="close">×</span>
+                <div id="detail-slider" class="owl-carousel owl-theme"></div>
+                <div class="text-center">
+                  <h1 id="detail-title" class="title"></h1>
+                </div>
+                <div id="detail-content"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Reference detail-->
+          <div id="references-masonry" data-animate="fadeInUp">
+            <div class="row">
+              <div class="reference-item mx-auto">
+                <div class="reference"><a href="#"><img src="img/BlueRibbonsReview/br_logo_gold.png" alt="" class="img-fluid reference-image">
+                    <div class="overlay">
+                      <div class="inner">
+                        <h3 class="h4 reference-title">Blue Ribbons Review</h3>
+                        <p>Review website for Amazon producs</p>
+                      </div>
+                    </div></a>
+                  <div data-images="img/BlueRibbonsReview/datepicker.jpg,img/BlueRibbonsReview/popover.jpg,img/BlueRibbonsReview/wishlist.jpg" class="sr-only reference-description">
+                    <p>Blue Ribbons Review is a website that allows sellers to get their products some traction by offering deals on their products to buyers on the Blue Ribbons Review site which encourages users to leave reviews on the products being sold through Amazon. Displayed are only a three of the many stories I completed on this project. For more details, please click on the GitHub link below.</p>
+                    <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit GitHub</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>    
 
     <!-- Contact-->
-    <section id="contact" class="services-section">
+    <section id="contact" data-dir="up" style="background: url(&quot;img/KevynLandscape2.1.jpg&quot;);" class="statistics-section text-white parallax parallax">
       <div class="container contact-container-custom">
         <header class="text-center">
-          <h2 data-animate="bounceIn" class="title h2-custom">Contact me</h2>
+          <h2 data-animate="bounceIn" class="title title-custom">Contact me</h2>
         </header>
         <div class="row services text-center">
           <div data-animate="bounceIn" class="mx-auto">
@@ -127,9 +170,10 @@
             <a class="btn btn-danger icon-custom fa fa-github pl-4 pr-3" href="https://github.com/kmorilla" role="button" target="_blank"></a>
             <a class="btn btn-danger icon-custom fa fa-linkedin pl-4" href="https://www.linkedin.com/in/kevyn-morilla/" role="button" target="_blank"></a>
           </div>
-        </div>               
+        </div>
       </div>
-
+      <div class="dark-mask"></div>
+    </section>   
       <!-- Modal -->
       <div class="modal  fade" id="modalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
