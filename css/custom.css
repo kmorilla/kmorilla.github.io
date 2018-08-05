@@ -1,6 +1,6 @@
 /* your styles go here */
 #intro {
-	background-image: url('../img/KevynLandscape.1.jpg');
+	background-image: url('../img/SacBridge.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -94,8 +94,8 @@ button.close {
 		font-size: 9vw;
 	}
 
-	.h2-custom {
-		font-size: 1.5em;
+	.title {
+		font-size: 2em;
 	}	
 
 	.welcome-custom {
